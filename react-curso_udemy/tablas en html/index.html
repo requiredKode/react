@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML</title>
+</head>
+<body>
+    <!--Tabla convencional-->
+    <table border>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Ciudad</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Laura</td>
+            <td>Pérez Gómez</td>
+            <td>Cádiz</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Fernández López</td>
+            <td>Santiago de Chile</td>
+            <td>20</td>
+        </tr>
+    </table>
+    <!-- Tabla con atributo colspan -->
+    <table border>
+        <tr>
+            <th colspan="2">Datos Personales</th>
+            <th colspan="3">Domicilio</th>
+        </tr>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Calle</th>
+            <th>Codigo Postal</th>
+            <th>Localidad</th>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>Jimenéz</td>
+            <td>Serrano Galvache 33</td>
+            <td>28030</td>
+            <td>Madrid</td>
+        </tr>
+    </table>
+    <!-- tabla con cabecera lateral y atributo rowspan -->
+    <table border>
+        <tr>
+            <th>T</th>
+            <th>Mes</th>
+            <td>Enero</td>
+            <td>Febrero</td>
+            <td>Marzo</td>
+        </tr>
+        <tr>
+            <th rowspan="2">1er Trimestre</th>
+            <th>T Máxima</th>
+            <td>10 C</td>
+            <td>12 C</td>
+            <td>14 C</td>
+        </tr>
+        <tr>
+            <th>T Mínima</th>
+            <td>0 C</td>
+            <td>2 C</td>
+            <td>4 C</td>
+        </tr>
+    </table>
+</body>
+</html>
